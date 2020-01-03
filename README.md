@@ -1,7 +1,7 @@
 # MemorySegmentationExemplarCSharp
 
 This program is my attempt to rewrite an exemplar program written in C found on pages 75-76 of 'Hacking: The Art of Exploitation' by Jon Erickson. The idea behind the program is to demonstrate the different segments
-of memory that the program's code and data are allocated too. According to Erickson there are 5 main segments of memory: text (code) > data > bss > heap > stack (from lowest memory address to highest). 
+of memory that the program's code and data are allocated to. According to Erickson there are 5 main segments of memory: text (code) > data > bss > heap > stack (from lowest memory address to highest). 
 The text segment contains the executable machine language instructions that the program is compiled into. Data contains initialised global and static variables, bss contains uninitialised global and static 
 variables. Heap is dynamic memory that the programmer can allocate or free at will, and stack is used to store local variables and context during function calls. All of these are writable except for text.
 
